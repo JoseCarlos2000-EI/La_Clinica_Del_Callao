@@ -308,7 +308,6 @@ header .navbar .search input{
     justify-content: center;
     position: absolute;
     top:10%;left: 10%;
-      
 }
 .about .card-presentation .description-presentation{
     width:65%;
@@ -389,12 +388,12 @@ header .navbar .search input{
 }
 @media only screen and (max-width:768px) {
     html{
-        font-size:50%;
+        font-size:40%;
     }
 }
 @media only screen and (max-width:480px) {
     html{
-        font-size:35%;
+        font-size:25%;
     }
 }
 @media only screen and (max-width:320px) {
@@ -497,34 +496,16 @@ header .navbar .search input{
     width:38rem;
 }
 **/
-@media only screen and (max-width:1024px) {
-
-}
-@media only screen and (max-width:768px) {
-
-}
-@media only screen and (max-width:480px) {
-
-
-}
-@media only screen and (max-width:320px) {
-
-}
 /** Section Marcas **/
-/**
+
 .alliances{
     width:100%;
-    margin-top:6rem;
-    padding-left: 15rem;padding-right: 15rem;
+    padding-left: 18rem;padding-right: 10rem;
+    margin-top:12rem;
 }
 
 .alliances .carrousel-logo{
     display: block;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap:8rem;
-
 }
 
 .alliances .carrousel-logo .marca img{
@@ -532,7 +513,38 @@ header .navbar .search input{
     height: auto;
     object-fit: cover;
 }
-**/
+
+
+@media only screen and (max-width:768px) {
+    .alliances{
+        padding-top:2rem;
+    }
+
+    .alliances .carrousel-logo .marca img{
+        max-width: 70%;
+    }
+
+}
+@media only screen and (max-width:650px) {
+
+    .alliances{
+        padding-top:4rem;
+    }
+    .alliances .carrousel-logo .marca img{
+        max-width: 60%;
+    }
+
+}
+@media only screen and (max-width:480px) {
+    .alliances .carrousel-logo .marca img{
+        max-width: 50%;
+    }
+}
+@media only screen and (max-width:320px) {
+    .alliances .carrousel-logo .marca img{
+        max-width: 40%;
+    }
+}
 /**Section Eventos**/
 /**
 .events{
