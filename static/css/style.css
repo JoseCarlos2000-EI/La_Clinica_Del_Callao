@@ -563,9 +563,70 @@ header .navbar .search input{
 
 
 @media only screen and (max-width:480px) {
+    .whatsapp {
+        position:fixed;
+        width:6rem;
+        height:6rem;
+        bottom:4rem;
+        right:4rem;
+        background-color:#25d366;
+        color:#FFF;
+        border-radius:50%;
+        text-align:center;
+        font-size:3rem;
+        z-index:100;
+      }
+      
+      .whatsapp-icon {
+        margin-top:1.3rem;
+      }
+    
+    .messenger{
+        position:fixed;
+        width:6rem;
+        height:6rem;
+        bottom:12rem;
+        right:4rem;
+        background-color:#3578E5;
+        color:#FFF;
+        border-radius:50%;
+        text-align:center;
+        font-size:3rem;
+        z-index:100;
+    }
+    
+    .messenger i{
+        margin-top:1.3rem;
+    }
+}
+@media only screen and (max-width:768px) {
+    .whatsapp {
+        width:10rem;
+        height:10rem;
+        font-size:6rem;
+      }
+      
+      .whatsapp-icon {
+        margin-top:2rem;
+      }
+    
+    .messenger{
+        width:10rem;
+        height:10rem;
+        font-size:6rem;
+        bottom:15rem;
+    }
+    
+    .messenger i{
+        margin-top:2rem;
+    }
+}
+@media only screen and (max-width:650px) {
+}
+@media only screen and (max-width:480px) {
 
 }
 @media only screen and (max-width:320px) {
 
-
+  
 }
