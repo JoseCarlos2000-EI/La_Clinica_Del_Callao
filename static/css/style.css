@@ -390,6 +390,7 @@ header .navbar .search input{
     html{
         font-size:40%;
     }
+
 }
 @media only screen and (max-width:480px) {
     html{
@@ -401,101 +402,7 @@ header .navbar .search input{
         font-size:20%;
     }
 }
-/**
-.about{
-    margin-top:8rem;
-    width:100%;
-    height:78rem;
-}
-.about .image-principal{
-    width: 100%;
-    height: 60rem;
-    border-bottom-left-radius: 10rem;
-    border-bottom-right-radius: 10rem;
-    object-fit: cover;
-    position: absolute;
-    
-    
-}out .fondo-style{
-    width: 100%;
-    height:60rem;
-    position: relative;
-    border-bottom-left-radius: 10rem;
-    border-bottom-right-radius: 10rem;
-    opacity: .4; 
-    background-color: rgb(86,247,174) 
-}
 
-.about .card-presentation{
-    width: 110rem;
-    margin: 0 auto;
-    position: relative;
-    top:-50rem;
-    border-bottom-left-radius: 10rem;
-    
-}
-
-.about .card-presentation .description-presentation{  
-    width:80rem;
-    height:65rem;
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    background-color:white;
-    align-items: center;
-    padding-left: 10rem;padding-right: 10rem;padding-top: 4rem;
-    position: absolute;
-    border-bottom-left-radius: 10rem;
-    box-shadow: -1px 17px 17px 5px rgba(0,0,0,0.43)
-
-}
-
-.about .card-presentation .description-presentation p{
-    font-size:1.7rem;
-    letter-spacing: .1rem;
-    text-align: center;
-    line-height:2.8rem;
-    color: rgb(129, 129, 129);
-}
-.about .card-presentation .description-presentation span{
-    font-size:1.7rem;
-    font-style: italic;
-    font-weight:bold;
-    letter-spacing: .1rem;
-    text-align: center;
-    line-height:2.8rem;
-    color: #3C1664;
-    
-}
-
-.about .card-presentation .description-presentation a{
-    margin-top:8rem;
-    padding: 1.5rem 3rem 1.5rem 3rem;
-    background-color: #3C1664;
-    border-radius: 2.5rem;
-    color: white;
-    text-transform: uppercase;
-    font-size: 1.5rem;
-    font-weight: bolder;
-}
-
-.about .card-presentation .description-presentation a:hover{
-    background-color:#542a81;
-}
-
-
-
-.about .card-presentation .carrousel-presentation{
-    position: absolute;
-    width: 38rem;
-    right:-8rem;
-    
-}
-
-.about .card-presentation .carrousel-presentation .image-carrousel img{
-    width:38rem;
-}
-**/
 /** Section Marcas **/
 
 .alliances{
@@ -620,36 +527,45 @@ header .navbar .search input{
 /** Redes Sociales **/
 .whatsapp {
     position:fixed;
-    width:60px;
-    height:60px;
-    bottom:40px;
-    right:40px;
+    width:6rem;
+    height:6rem;
+    bottom:4rem;
+    right:4rem;
     background-color:#25d366;
     color:#FFF;
-    border-radius:50px;
+    border-radius:50%;
     text-align:center;
-    font-size:30px;
+    font-size:3rem;
     z-index:100;
   }
   
   .whatsapp-icon {
-    margin-top:13px;
+    margin-top:1.3rem;
   }
 
 .messenger{
     position:fixed;
-    width:60px;
-    height:60px;
-    bottom:120px;
-    right:40px;
+    width:6rem;
+    height:6rem;
+    bottom:12rem;
+    right:4rem;
     background-color:#3578E5;
     color:#FFF;
-    border-radius:50px;
+    border-radius:50%;
     text-align:center;
-    font-size:30px;
+    font-size:3rem;
     z-index:100;
 }
 
 .messenger i{
-    margin-top:13px;
+    margin-top:1.3rem;
+}
+
+
+@media only screen and (max-width:480px) {
+
+}
+@media only screen and (max-width:320px) {
+
+
 }
