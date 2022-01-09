@@ -389,6 +389,9 @@ header .navbar .search input{
     html{
         font-size:60%;
     }
+    .list-card-product .card-product{
+        margin-bottom: 5rem;
+    }
 }
 @media only screen and (max-width:768px) {
     html{
@@ -398,7 +401,7 @@ header .navbar .search input{
 }
 @media only screen and (max-width:480px) {
     html{
-        font-size:25%;
+        font-size:28%;
     }
 }
 @media only screen and (max-width:320px) {
