@@ -3,6 +3,10 @@
     font-family: Hey October;
     src: url(fonts/Hey\ October.ttf);
 }
+@font-face {
+    font-family: Bebas Neue;
+    src: url(fonts/bebas-neue.ttf);
+}
 /**
 @import url('http://fonts.cdnfonts.com/css/hey-october');
 **/
@@ -453,6 +457,104 @@ header .navbar .search input{
     }
 }
 /**Section Eventos**/
+.events{
+    width:100%;
+    margin-top:8rem;
+    text-align:center;
+
+}
+
+.events .description-area{
+    width:80%;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0 auto;
+    background-color:#7ED557;
+    position: relative;
+    border-bottom-right-radius: 10rem;
+}
+
+.events .description-area .image-event{
+    width:45%;
+    position: absolute;
+    top: 0;left: -4rem;
+}
+
+.events .description-area .image-event img{
+    width:88%;
+    border-bottom-right-radius: 10rem;
+    object-fit: cover;
+}
+.events .description-area .description-event{
+    width:55%;
+    padding:6rem 2rem 4rem 2rem;
+    
+}
+
+.events .description-area .description-event .title-3{
+    font-family: "Bebas Neue", Roboto;
+    line-height:7rem;
+    font-weight: normal;
+    font-size: 5.8rem;
+    text-align: left;
+    color:#3C1664;
+    margin-bottom: 4rem;
+}
+
+.events .description-area .description-event p{
+    text-align: left;
+    font-size:1.7rem;
+    line-height:3rem;
+    padding-bottom: 2rem;
+    color:white;
+}
+.events .description-area .description-event .p-2{
+    padding-bottom:5rem;
+}
+
+.events .description-area .description-event a{
+    padding: 1.5rem 3rem 1.5rem 3rem;
+    background-color: #3C1664;
+    border-radius: 2.5rem;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+.events .description-event a:hover{
+    background-color:#542a81;
+}
+
+@media only screen and (max-width:1280px) {
+    .events .description-area{
+        padding-top: 4rem;
+        justify-content:center;
+    }
+    .events .description-area .image-event{
+        display: none;
+    }
+    .events .description-area .description-event{
+        width:70%;
+        
+        
+    }
+
+
+
+}
+@media only screen and (max-width:1024px) {
+}
+@media only screen and (max-width:768px) {
+
+
+}
+@media only screen and (max-width:480px) {
+
+}
+@media only screen and (max-width:320px) {
+
+}
 /**
 .events{
     width: 100%;
