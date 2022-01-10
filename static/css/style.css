@@ -551,13 +551,14 @@ header .navbar .search input{
     
 }
 .footer .social-redes{
+    width:30%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 .footer .social-redes img{
-    width:90%;
+    width:40%;
     margin-bottom: 1rem;
 }
 .footer .social-redes .links-redes{
@@ -571,6 +572,9 @@ header .navbar .search input{
     font-size: 1.8rem; 
 }
 
+.title-link{
+    width: 55%;
+}
 .title-link h3{
     color: white;
     font-size: 4.5rem;
@@ -578,7 +582,7 @@ header .navbar .search input{
     margin-bottom: 2rem;
 }
 
-.title-link a{
+.title-link .link-visit{
     padding: 1rem 2rem 1rem 2rem;
     border: 1px solid white;
     border-radius: 5rem;
@@ -588,8 +592,36 @@ header .navbar .search input{
     font-size: 1.5rem;
     background-color:#330466;
 }
-.title-link a:hover{
+.title-link .link-visit:hover{
     background-color:#542a81;
+}
+.footer-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.title-link h2{
+    text-transform: uppercase;
+    color: white;
+    font-size: 2rem;
+    margin-top:4rem;margin-bottom:1rem;
+}
+.title-link .list-inline-category{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: .5rem;
+}
+.title-link .list-inline-category a{
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.title-link .list-inline-category a:hover{
+    text-decoration: underline;
 }
 @media only screen and (max-width:768px) {
     .footer .social-redes img{
