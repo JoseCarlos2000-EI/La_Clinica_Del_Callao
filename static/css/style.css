@@ -548,6 +548,7 @@ header .navbar .search input{
     justify-content: space-around;
     align-items:center;
     background-color: #330466;
+    padding-top: 4rem;padding-bottom: 4rem;
     
 }
 .footer .social-redes{
