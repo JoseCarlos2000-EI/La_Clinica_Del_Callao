@@ -591,7 +591,11 @@ header .navbar .search input{
 .title-link a:hover{
     background-color:#542a81;
 }
-
+@media only screen and (max-width:768px) {
+    .footer .social-redes img{
+        width: 75%;
+    }
+}
 /** Redes Sociales **/
 .whatsapp {
     position:fixed;
@@ -655,7 +659,6 @@ header .navbar .search input{
         height:6rem;
         bottom:12rem;
         right:4rem;
-        background-color:#542a81;
         color:#FFF;
         border-radius:50%;
         text-align:center;
