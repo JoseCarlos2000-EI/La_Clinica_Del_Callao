@@ -593,9 +593,19 @@ header .navbar .search input{
 }
 @media only screen and (max-width:768px) {
     .footer .social-redes img{
-        width: 75%;
+        width: 60%;
+    }
+    .footer .social-redes .links-redes a{
+        font-size:2rem;
+    }
+    
+}
+@media only screen and (max-width:480px) {
+    .footer .social-redes .links-redes a{
+        font-size:3rem;
     }
 }
+
 /** Redes Sociales **/
 .whatsapp {
     position:fixed;
