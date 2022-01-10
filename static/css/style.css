@@ -7,9 +7,7 @@
     font-family: Bebas Neue;
     src: url(fonts/bebas-neue.ttf);
 }
-/**
-@import url('http://fonts.cdnfonts.com/css/hey-october');
-**/
+
 :root{
     --primary-color:#5596b6;
 }
@@ -538,97 +536,62 @@ header .navbar .search input{
         display: none;
     }
     .events .description-area .description-event{
-        width:70%;
-        
-        
+        width:70%;  
     }
-
-
-
 }
-@media only screen and (max-width:1024px) {
-}
-@media only screen and (max-width:768px) {
 
-
-}
-@media only screen and (max-width:480px) {
-
-}
-@media only screen and (max-width:320px) {
-
-}
-/**
-.events{
-    width: 100%;
+.footer{
+    width:100%;
     margin-top:8rem;
-    text-align:center;
-    position: relative;
-}
-.events .description-area{
-    width:80%;
-    background-color:#7ED557;
-    float:right;
-    margin-right: 5rem;
-    border-bottom-right-radius: 10rem;
-}
-
-.events .description-area .description-event{
-    width:60rem;
-    float:right;
-    padding-top: 6rem;padding-bottom: 2rem;
-    margin-right: 4rem;margin-left: 4rem;
-    display:flex;
-    justify-content:center;
+    padding-top:1.5rem; padding-bottom:1.5rem;
+    display: flex;
+    justify-content: space-around;
     align-items:center;
-    flex-flow: column;
+    background-color: #330466;
+    
+}
+.footer .social-redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footer .social-redes img{
+    width:90%;
+    margin-bottom: 1rem;
+}
+.footer .social-redes .links-redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+.footer .social-redes .links-redes a{
+    color: white;
+    font-size: 1.8rem; 
 }
 
-.events .description-area .description-event .title-3{
-    width:50rem;
-    font-size: 3.2rem;
-    text-align: left;
-    color:#3C1664;
+.title-link h3{
+    color: white;
+    font-size: 4.5rem;
+    font-family: 'Hey October', sans-serif;
     margin-bottom: 2rem;
-    text-transform:uppercase;
 }
 
-.events .description-area .description-event p{
-    width:50rem;
-    text-align: left;
-    font-size:1.7rem;
-    line-height:3rem;
-    padding-bottom: 2rem;
-    color:white;
-}
-
-.events .description-area .description-event a{
-    margin-top:4rem;
-    padding: 1.5rem 3rem 1.5rem 3rem;
-    background-color: #3C1664;
-    border-radius: 2.5rem;
+.title-link a{
+    padding: 1rem 2rem 1rem 2rem;
+    border: 1px solid white;
+    border-radius: 5rem;
     color: white;
     text-transform: uppercase;
+    font-weight: bold;
     font-size: 1.5rem;
-    font-weight: bolder;
+    background-color:#330466;
 }
-.events .description-event a:hover{
+.title-link a:hover{
     background-color:#542a81;
 }
 
-.events .description-area .image-event{
-    width:60rem;
-    position: absolute;
-    left:8rem;
-}
-
-.events .description-area .image-event img{
-    width: 90%;
-    height:54rem;
-    border-bottom-right-radius: 10rem;
-    object-fit: cover;
-}
-**/
 /** Redes Sociales **/
 .whatsapp {
     position:fixed;
@@ -692,7 +655,7 @@ header .navbar .search input{
         height:6rem;
         bottom:12rem;
         right:4rem;
-        background-color:#3578E5;
+        background-color:#542a81;
         color:#FFF;
         border-radius:50%;
         text-align:center;
@@ -725,13 +688,4 @@ header .navbar .search input{
     .messenger i{
         margin-top:2rem;
     }
-}
-@media only screen and (max-width:650px) {
-}
-@media only screen and (max-width:480px) {
-
-}
-@media only screen and (max-width:320px) {
-
-  
 }
